@@ -42,7 +42,7 @@ h1 {
     flex-direction: column;
   }
   #cardForm input {
-    width: 80%;
+    width: 100%;
   }
 }
 
