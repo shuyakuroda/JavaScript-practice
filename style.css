@@ -41,7 +41,7 @@ h1 {
   #cardForm {
     flex-direction: column;
   }
-  #cardForm input {
+  #cardForm input, #cardForm button {
     width: 100%;
   }
 }
