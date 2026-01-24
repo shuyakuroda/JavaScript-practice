@@ -4,18 +4,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>getName練習</title>
+  <title>Digital Card Generator</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Noto+Sans+JP:wght@900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-  <form name="form1">
-    <input type="text" name="namae" id="namae">
-    <button type="button" id="btn">送信</button>
-  </form>
+  <div class="container">
+    <h1>かんたん名刺作成</h1>
 
-  <p id="output"></p>
+    <form id="cardForm">
+      <input type="text" id="namae" placeholder="お名前を入力">
+      <input type="text" id="job" placeholder="職業を入力(例:Webエンジニア)">
+      <button type="submit" id="btn">名刺を作成</button>
+    </form>
+
+    <p id="output"></p>
+
+    <div id="cardPreview" class="business-card" style="display: none;">
+      <div class="card-content">
+        <p id="displayJob" class="card-job"></p>
+        <h2 id="displayName" class="card-name"></h2>
+        <hr>
+        <p class="card-footer">My Digital Businnes Card</p>
+      </div>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
