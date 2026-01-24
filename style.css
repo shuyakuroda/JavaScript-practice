@@ -35,6 +35,15 @@ h1 {
   h1 {
     font-size: 1.8rem;
   }
+  .business-card {
+    margin: 20px 0 20px 0;
+  }
+  #cardForm {
+    flex-direction: column;
+  }
+  #cardForm input {
+    width: 50%;
+  }
 }
 
 #namae,#job {
@@ -76,7 +85,6 @@ h1 {
 /* 名刺のデザイン */
 .business-card {
   margin-top: 20px;
-  width: 100%;
   max-width: 320px;
   height: 180px;
   margin-left: auto;
