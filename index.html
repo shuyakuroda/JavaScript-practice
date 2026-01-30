@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Digital Card Generator</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Noto+Sans+JP:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Noto+Sans+JP:wght@900&display=swap"
+    rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
@@ -18,7 +19,14 @@
 
     <form id="cardForm">
       <input type="text" id="namae" placeholder="お名前を入力">
-      <input type="text" id="job" placeholder="職業を入力(例:Webエンジニア)">
+      <input type="text" id="job" placeholder="職業を入力(例:エンジニア)">
+      <div class="icon-selest">
+        <!-- <p>アイコンを選択してください</p> -->
+        <!-- <img src="./images/face-grin-hearts-solid-full.svg" alt="" class="icon">
+        <img src="./images/face-grin-solid-full.svg" alt="" class="icon">
+        <img src="./images/face-grin-stars-solid-full.svg" alt="" class="icon">
+        <img src="./images/face-grin-wink-solid-full.svg" alt="" class="icon"> -->
+      </div>
       <button type="submit" id="btn">名刺を作成</button>
     </form>
 
@@ -26,11 +34,12 @@
 
     <div id="cardPreview" class="business-card" style="display: none;">
       <div class="card-content">
-        <p id="displayJob" class="card-job"></p>
-        <h2 id="displayName" class="card-name"></h2>
-        <hr>
-        <p class="card-footer">My Digital Businnes Card</p>
+          <p id="displayJob" class="card-job"></p>
+          <h2 id="displayName" class="card-name"></h2>
+          <hr>
+          <p class="card-footer">My Digital Businnes Card</p>
       </div>
+      <img src="./images/face-grin-solid-full.svg" alt="アイコンのイラスト" class="icon">
     </div>
   </div>
 

@@ -376,3 +376,4 @@ function generateCard(){
   document.getElementById("namae").value = "";
   document.getElementById("job").value = "";
 }
+
