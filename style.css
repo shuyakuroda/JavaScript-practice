@@ -155,3 +155,7 @@ hr {
     transform: translateY(0) scale(1);
   }
 }
+
+.practicetext {
+  text-align: center;
+}
